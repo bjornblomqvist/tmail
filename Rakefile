@@ -10,7 +10,6 @@ begin
     gem.email = "darwin.git@marianna.se"
     gem.homepage = "http://github.com/bjornblomqvist/tmail"
     gem.authors = ["Mikel Lindsaar","Minero Aoki","Jayson Vaughn","Bjorn Blomqvist"]
-    gem.add_development_dependency "rspec"
     gem.files = FileList['lib/**/*.rb', 'ext/**/*','README.rdoc','CHANGES','NOTES','VERSION','test/**/*'].to_a  
     gem.extensions << 'ext/tmailscanner/tmail/extconf.rb'    
   end
